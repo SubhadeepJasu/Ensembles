@@ -71,10 +71,12 @@ dependencies = [
     dependency ('json-glib-1.0', required: false),
     dependency ('Vinject-0.0.0', fallback: ['libvinject', 'vinject_dep']),
     dependency ('enstl-0', fallback: ['enstl', 'enstl_dep']),
-    dependency ('ens-shell-cli-0', fallback: ['ens-shell-cli', 'ens_shell_cli_dep']),
+    dependency ('ens-shell-cli-0', fallback: ['ens-shell-cli', 'ens_shell_cli_dep'],
+    default_options: ['profile=' + profile]),
     dependency ('ens-shell-gtk-0', fallback: ['ens-shell-gtk', 'ens_shell_gtk_dep'],
     default_options: ['profile=' + profile]),
-    dependency ('ens-aw-core-0', fallback: ['ens-aw-core', 'ens_aw_core_dep'])
+    dependency ('ens-aw-core-0', fallback: ['ens-aw-core', 'ens_aw_core_dep'],
+    default_options: ['profile=' + profile])
 ]
 
 datadir = get_option ('datadir')
