@@ -28,37 +28,37 @@
     <value key="x-appcenter-color-primary-text">#FFFFFF</value>
     <value key="x-appcenter-suggested-price">0</value>
   </custom>
-  <translation type="gettext">com.github.subhadeepjasu.ensembles</translation>
+  <translation type="gettext">com.github.ensemblesaw.ensembles</translation>
   <developer_name>Subhadeep Jasu</developer_name>
   <url type="homepage">https://subhadeepjasu.github.io/#/project/ensembles</url>
   <url type="bugtracker">https://github.com/SubhadeepJasu/ensembles/issues</url>
   <url type="help">https://github.com/SubhadeepJasu/ensembles/issues</url>
   <update_contact>subhadeep107@proton.me</update_contact>
-  <launchable type="desktop-id">com.github.subhadeepjasu.ensembles.desktop</launchable>
+  <launchable type="desktop-id">com.github.ensemblesaw.ensembles.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <caption>Instant Playback</caption>
-      <image>https://raw.githubusercontent.com/SubhadeepJasu/Ensembles/master/screenshots/Screenshot.png</image>
+      <image>https://raw.githubusercontent.com/ensemblesaw/ensembles-app/master/screenshots/Screenshot.png</image>
     </screenshot>
     <screenshot>
       <caption>Style Menu</caption>
-      <image>https://raw.githubusercontent.com/SubhadeepJasu/Ensembles/master/screenshots/ScreenshotStyles.png</image>
+      <image>https://raw.githubusercontent.com/ensemblesaw/ensembles-app/master/screenshots/ScreenshotStyles.png</image>
     </screenshot>
     <screenshot>
       <caption>Per Channel Modulators</caption>
-      <image>https://raw.githubusercontent.com/SubhadeepJasu/Ensembles/master/screenshots/ScreenshotChannelModulators.png</image>
+      <image>https://raw.githubusercontent.com/ensemblesaw/ensembles-app/master/screenshots/ScreenshotChannelModulators.png</image>
     </screenshot>
     <screenshot>
       <caption>Master Knob LFO</caption>
-      <image>https://raw.githubusercontent.com/SubhadeepJasu/Ensembles/master/screenshots/ScreenshotLFO.png</image>
+      <image>https://raw.githubusercontent.com/ensemblesaw/ensembles-app/master/screenshots/ScreenshotLFO.png</image>
     </screenshot>
     <screenshot>
       <caption>Multi-track Recorder</caption>
-      <image>https://raw.githubusercontent.com/SubhadeepJasu/Ensembles/master/screenshots/ScreenshotMultiTrackRecorder.png</image>
+      <image>https://raw.githubusercontent.com/ensemblesaw/ensembles-app/master/screenshots/ScreenshotMultiTrackRecorder.png</image>
     </screenshot>
     <screenshot>
       <caption>Voice Menu and MIDI File Player</caption>
-      <image>https://raw.githubusercontent.com/SubhadeepJasu/Ensembles/master/screenshots/ScreenshotVoice.png</image>
+      <image>https://raw.githubusercontent.com/ensemblesaw/ensembles-app/master/screenshots/ScreenshotVoice.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1">
