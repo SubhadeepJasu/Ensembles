@@ -69,6 +69,7 @@ dependencies = [
     dependency ('gobject-2.0'),
     dependency ('libsoup-3.0', required: false),
     dependency ('json-glib-1.0', required: false),
+    dependency ('kissfft-float', required: false),
     dependency ('Vinject-0.0.0', fallback: ['libvinject', 'vinject_dep']),
     dependency ('enstl-0', fallback: ['enstl', 'enstl_dep']),
     dependency ('ens-shell-cli-0', fallback: ['ens-shell-cli', 'ens_shell_cli_dep'],
