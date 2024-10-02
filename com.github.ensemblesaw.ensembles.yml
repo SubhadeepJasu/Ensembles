@@ -22,11 +22,17 @@ modules:
   # Adds dependency injection
   - name: vinject
     buildsystem: meson
+    cleanup:
+      - /include
+      - /lib/pkgconfig
+      - /share
     sources:
       - type: git
         url: https://gitlab.com/geeky_endeavours/vinject.git
         branch: version-bump
-
+    post-install:
+      - ln -sf vinject.pc $FLATPAK_DEST/lib/pkgconfig/vinject-0.0.1.pc
+      - pkg-config --libs --cflags vinject
 
   # Adds support for lv2 virtual instruments and effects plugins
   - name: lv2
@@ -142,6 +148,13 @@ modules:
         url: https://github.com/PortMidi/portmidi.git
         tag: v2.0.3
 
+  # Fast Fourier Transform
+  - name: kissfft
+    buildsystem: cmake
+    sources:
+      - type: git
+        url: https://github.com/mborgerding/kissfft.git
+        tag: 131.1.0
 
   # Install styles
   - name: styles
@@ -181,7 +194,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/ensemblesaw/ens-shell-gtk.git
-        branch: main
+        branch: layout
 
   # The app itself
   - name: ensembles
