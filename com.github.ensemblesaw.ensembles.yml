@@ -25,7 +25,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/geeky_endeavours/vinject.git
-        branch: main
+        branch: version-bump
 
 
   # Adds support for lv2 virtual instruments and effects plugins
